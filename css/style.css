@@ -30,7 +30,4 @@ a {
 div.sticky {
   position: sticky;
   bottom: 0;
-  /* background-color: rgb(60, 63, 123);
-  padding: 30px;
-  font-size: 20px; */
 }

@@ -63,10 +63,11 @@
 
 .btn-beans {
   color: white;
-  padding: 15px 25px;
+  opacity: 0.5;
   border-radius: 4px;
   font-weight: bold;
   background: #E38B29;
+  opacity: 0.5;
 }
 
 .btn-beans:hover {
