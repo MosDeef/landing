@@ -1,0 +1,90 @@
+
+.btn-treehouse {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+
+.btn-yours {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(149, 39, 39);
+  color: white;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  cursor: pointer;
+  animation: none;
+}
+
+.btn-yours:hover {
+  background-color: rgb(251, 6, 6);
+  box-shadow: 0 0 10px #8f1818, 0 0 40px #e73434, 0 0 80px #d11c1c;
+  transition: 5s;
+  animation: tremble 0.05s ease-in-out infinite alternate;
+}
+
+.btn-extra {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.btn-beans {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #E38B29;
+}
+
+.btn-beans:hover {
+  opacity: 1;
+  background: #a26b2d;
+  transition: 3s;
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes tremble {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-2px, 2px);
+  }
+  20% {
+    transform: translate(2px, -2px);
+  }
+}

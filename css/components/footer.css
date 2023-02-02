@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  background-color: #E38B29;
+  padding: 1px;
+}
+
+.footer a {
+  color: #4e300a;
+}
+
+.footer a:hover {
+  color: #FFD8A9;
+}
+
+.footer a:visited {
+  color: #4e300a;
+}
+
+.footer p {
+  color: #FFD8A9;
+  opacity: 0.4;
+}
